@@ -24,14 +24,14 @@ class Forpus(object):
     
     def __init__(self, *args):
         """
-        There are two possible constructors.ArithmeticError
+        There are two possible constructors.
         
         The first one expects user and password strings for the Forpus Rest API
         
         >> from forpus_api import Forpus
         >> feeder = Forpus('user', 'password')
         
-        The secont one expects to find environment variables:
+        The second one expects to find environment variables:
         
         FORPUSAPI_USER
         FORPUSAPI_PASSWORD
