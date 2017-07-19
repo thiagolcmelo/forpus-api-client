@@ -1,0 +1,10 @@
+# ignore bkp folder
+bkp/*
+
+# ignore python cache stuff
+*.pyo
+*.pyc
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
