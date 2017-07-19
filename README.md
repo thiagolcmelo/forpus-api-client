@@ -16,11 +16,11 @@ It is possible to list, create, update, and delete:
 
 There is also very simple method for filtering prices.
 
-## Initializing
+## Authenticating
 
 There are two possible constructors:
          
-The first one expects user and password strings for the Forpus Rest API
+The first one expects `user` and `password` strings for the Forpus Rest API.
 
 ```python
 from forpus_api import Forpus
