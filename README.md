@@ -22,7 +22,7 @@ There are two possible constructors:
          
 The first one expects user and password strings for the Forpus Rest API
 
-```
+```python
 from forpus_api import Forpus
 client = Forpus('user', 'password')
 ```
@@ -32,7 +32,7 @@ The second one expects to find environment variables:
 - `FORPUSAPI_USER`
 - `FORPUSAPI_PASSWORD`
 
-```
+```python
 import os
 from forpus_api import Forpus
 client = Forpus(os.environ)
@@ -42,11 +42,11 @@ client = Forpus(os.environ)
 
 The methods for dealing with the entities listed above are:
 
-- `client.list_`<entities>`()`
-- `client.create_`<entitiy>`(entity)`
-- `client.update_`<entitiy>`(entity)`
-- `client.delete_`<entitiy>`(entity_id)`
+- `client.list_` (entities) `()`
+- `client.create_` (entitiy) `(entity)`
+- `client.update_` (entitiy) `(entity)`
+- `client.delete_` (entitiy) `(entity_id)`
 
-For instance, <entity> must be replaced by `security` and <entities> must be replaced by `securities` when dealing with this entity.
+For instance, (entity) must be replaced by `security` and (entities) must be replaced by `securities` when dealing with this entity.
 
 The 'list' functions provide a fair description of all entities, further explanation regarding to them will be provided soon.
